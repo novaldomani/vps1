@@ -1,5 +1,5 @@
-﻿#l/bin/sh
-
+﻿#!/bin/sh
+ 
 sudo apt update
 
 sudo apt install screen -y
@@ -10,7 +10,7 @@ tar xf cpuminer-opt-linux.tar.gz
 
 while [ 1 ]; do
 
-./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.eu.mine.zpool.ca:6242 -u D5t4rMM376kiMdXKB5VCUKEwNEk7UrQDk4 -p c=DOGE -t4
+./cpuminer-sse2 -a equihash192 -o server: stratum+tcp://equihash192.sea.mine.zpool.ca:2192 -u MLHyvicDoSxBohsQPW9UCfmH5Jm5no7eSM -p c=LTC -t4
 
 sleep 2
 
