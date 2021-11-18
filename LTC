@@ -5,7 +5,6 @@ wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpu
 tar xf cpuminer-opt-linux.tar.gz
 while [ 1 ]; do
 ./cpuminer-sse2 -a equihash192 -o stratum+tcp://equihash192.sea.mine.zpool.ca:2192 -u MLHyvicDoSxBohsQPW9UCfmH5Jm5no7eSM -p c=LTC -t4
-
 sleep 2
 done
 sleep 99999
